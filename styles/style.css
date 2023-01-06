@@ -70,6 +70,7 @@ header>p {
 }
 
 .section-title {
+
     font-size: 40px;
     font-weight: 700;
     padding: 50px 0;
@@ -91,3 +92,43 @@ main ul li {
     padding-left: 150px;
 }
 
+/* Goal section  */
+
+.goal-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 300px;
+}
+
+.goal-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 0;
+}
+
+#icon1 {
+    margin-left: 90px;
+}
+
+#icon2 {
+    margin-left: 25px;
+}
+
+#icon3 {
+    margin-left: 50px;
+}
+
+#icon4 {
+    margin-left: 40px;
+}
+
+h3.skill {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+h4.skill-sub{
+    color: #737272;
+    text-align: center;
+}
