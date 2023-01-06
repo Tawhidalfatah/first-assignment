@@ -108,19 +108,19 @@ main ul li {
 
 /* Icons Section  */
 
-#icon1 {
+#icon-web-development {
     margin-left: 90px;
 }
 
-#icon2 {
+#icon-Js {
     margin-left: 25px;
 }
 
-#icon3 {
+#icon-Smoking {
     margin-left: 50px;
 }
 
-#icon4 {
+#icon-esite {
     margin-left: 40px;
 }
 
@@ -146,6 +146,9 @@ h4.skill-sub{
     background-size: 75%;
     background-position: center;
     padding: 100px 0;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
 }
 
 .gradient-title {
@@ -166,3 +169,52 @@ h4.skill-sub{
     height: 50px;   
     font-size: 22px;
 }
+
+/* footer Section */
+
+footer {
+    background-color: #151414;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-info {
+    color:  #F8F8F8;
+    padding-top: 100px;
+}
+
+.contact-info p {
+    padding: 8px 0;
+}
+
+.contact-info img {
+    padding: 10px 10px 50px;
+}
+
+.contact-info h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+input[type=email] {
+    margin: 80px 0;
+    height: 32px;
+    width: 250px;
+    background-color: #151414;
+    color: #F3F3F3;
+    border: solid 1px;
+}
+
+
+input[type=submit] {
+    border: none;
+    border-radius: 2%;
+    color: #F15B22;
+    padding: 8px 32px;
+    text-decoration: none;
+    margin: 5px 2px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
