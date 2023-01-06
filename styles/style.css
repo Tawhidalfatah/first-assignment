@@ -11,20 +11,18 @@ nav {
     color: #ffffff;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 25px;
-    
+    font-size: 25px; 
+}
+
+
+nav ul li {
+    display: inline;
+    padding-right: 400px;   
 }
 
 a {
     text-decoration: none;
     color: #ffffff;
-}
-
-nav ul li {
-    display: inline;
-    
-    padding-right: 400px;
-    
 }
 
 /* Header Section */
@@ -81,6 +79,7 @@ header>p {
     font-size: 1.5em;
 }
 
+
 main ul li {
     padding: 10px 0;
     font-size: 18px;
@@ -107,6 +106,8 @@ main ul li {
     padding: 50px 0;
 }
 
+/* Icons Section  */
+
 #icon1 {
     margin-left: 90px;
 }
@@ -123,12 +124,45 @@ main ul li {
     margin-left: 40px;
 }
 
+/* skill titles  */
+
 h3.skill {
     font-size: 25px;
+    padding: 8px 0;
     letter-spacing: 3px;
 }
 
 h4.skill-sub{
     color: #737272;
     text-align: center;
+}
+
+
+/* Gradient section  */
+
+.gradient-background {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png) ;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.gradient-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 400px;
+    padding: 15px 400px 30px; 
+}
+
+.btn-gradient {
+    color: #F15B22;
+    background-color: #ffffff;
+    margin-left: 400px;
+    border: none;
+    border-radius: 5%;
+    width: 150px;
+    height: 50px;   
+    font-size: 22px;
 }
