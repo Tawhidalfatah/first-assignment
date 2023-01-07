@@ -9,15 +9,27 @@ nav {
     background-color: #f27340;
     text-align: right;
     color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-size: 25px; 
 }
 
+nav ul {
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+
+#site-logo {
+    padding: 10px 5px;
+}
 
 nav ul li {
-    display: inline;
-    padding-right: 400px;   
+    
+   padding-top: 25px;
+   padding-left: 450px;
+    
+    
+      
 }
 
 a {
